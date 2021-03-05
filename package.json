@@ -1,0 +1,30 @@
+{
+  "name": "urlshortner-backend",
+  "version": "1.0.0",
+  "description": "Backend for URL Shortner Application",
+  "main": "\\",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@angular/common": "^11.2.3",
+    "@angular/core": "^11.2.3",
+    "@angular/router": "^11.2.3",
+    "@auth0/angular-jwt": "^5.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "^8.2.0",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "rxjs": "^6.6.6"
+  },
+  "author": "Rajat Sachan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
